@@ -1,5 +1,10 @@
 nav {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     width: 100%;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+a nav {
+    font-size:larger;
+    font-style: none;
+    color: white;
 }
