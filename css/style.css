@@ -1,10 +1,47 @@
+* {
+    background-color: rgb(20, 33, 61);
+}
+@font-face {
+    font-family: "Blanka";
+    src: url(D:\Projects\Portfolio\newProject\resources\BLANKA_Font\Blanka-Regular.otf);
+}
+h1 {
+    font-family: "Blanka";
+    font-size: 100px;
+}
+
 nav {
     background-color: rgb(19, 19, 19);
     width: 100%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-a nav {
-    font-size:larger;
+
+nav a {
+    font-size:x-large;
     font-style: none;
     color: white;
+}
+
+#header-box {
+    width: 60%;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    display: flexbox;
+    background-color: rgb(114, 114, 114);
+}
+
+section#skills {
+    display: flexbox;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skill-logo {
+    width: 150px;
+    height: auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
