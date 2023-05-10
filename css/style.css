@@ -3,12 +3,14 @@
 }
 @font-face {
     font-family: "Blanka";
-    src: url(D:\Projects\Portfolio\newProject\resources\BLANKA_Font\Blanka-Regular.otf);
+    src: url(./resources/BLANKA_Font/Blanka-Regular.otf);
 }
 h1 {
-    font-family: "Blanka";
+    font-family: Bebas Neue;
     font-size: 100px;
+    background-color: rgb(114, 114, 114);
 }
+
 
 nav {
     background-color: rgb(19, 19, 19);
@@ -29,6 +31,7 @@ nav a {
     text-align: center;
     display: flexbox;
     background-color: rgb(114, 114, 114);
+    margin: auto;
 }
 
 section#skills {
