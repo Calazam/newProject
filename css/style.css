@@ -1,15 +1,26 @@
 body {
     background-color: rgb(20, 33, 61);
 }
+@font-face {
+    font-family: "Blanka";
+    src: url(./resources/BLANKA_Font/Blanka-Regular.otf);
+}
 
 h1 {
     font-family: "Josefin Sans";
+    font-family: Bebas Neue;
     font-size: 100px;
+    background-color: rgb(114, 114, 114);
 }
 h2 {
     font-family: "Josefin Sans";
     font-size: 40px;
 }
+h2 {
+    font-family: "Josefin Sans";
+    font-size: 40px;
+}
+
 
 nav {
     background-color: rgb(19, 19, 19);
@@ -32,6 +43,7 @@ nav a {
     text-align: center;
     display: flexbox;
     background-color: rgb(114, 114, 114);
+    margin: auto;
     margin: auto;
     border-bottom: 5px solid rgb(252, 163, 17);
     
