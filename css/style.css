@@ -96,7 +96,7 @@ section#skills {
     align-self: center;
     align-content: center;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 #skillsHeader {
@@ -104,4 +104,40 @@ section#skills {
     text-align: end;
     border-bottom: 3px solid rgb(252, 163, 17);
     margin-right: 5%;
+}
+
+#portfolioHeader {
+    width: 100%;
+    border-bottom: 3px solid rgb(252, 163, 17);
+    display:inline-block;
+    margin-left: 5%;
+}
+
+section#portfolio {
+    display: flexbox;
+    text-align: start;
+    flex-flow: column;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(19, 19, 19);
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+}
+
+.portfolioProject {
+    flex-flow: column;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    display: block;
+}
+footer {
+    background-color: rgb(19, 19, 19);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: none;
+    text-align: center;
+    border-top: 3px solid rgb(252, 163, 17);
+    border-bottom: 3px solid rgb(252, 163, 17);
+    padding: none;
+    box-sizing: border-box;
 }
