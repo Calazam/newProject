@@ -22,6 +22,7 @@ nav {
     width: 100%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: end;
+    margin-bottom: none;
 }
 
 nav a {
@@ -39,7 +40,7 @@ nav a {
     display: flexbox;
     background-color: rgb(114, 114, 114);
     margin: auto;
-    margin: auto;
+    margin-top: 4px;
     border-bottom: 5px solid rgb(252, 163, 17);
     
 
@@ -61,11 +62,13 @@ section#about {
     margin: auto;
     background-color: rgb(19, 19, 19);
     color: rgb(255, 255, 255);
+    margin-left: 5%;
 }
 #aboutHeader {
     width: 100%;
     border-bottom: 3px solid rgb(252, 163, 17);
     display:inline-block;
+    margin-left: 5%;
 }
 #about p {
     font-size: 18px;
@@ -100,4 +103,5 @@ section#skills {
     justify-self: end;
     text-align: end;
     border-bottom: 3px solid rgb(252, 163, 17);
+    margin-right: 5%;
 }
