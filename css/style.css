@@ -1,143 +1,166 @@
-body {
-    background-color: rgb(20, 33, 61);
-}
+    /* Universal */
+    @media screen {
 
-h1 {
-    font-family: "Josefin Sans";
-    font-size: 100px;
-    background-color: rgb(114, 114, 114);
-}
-h2 {
-    font-family: "Josefin Sans";
-    font-size: 40px;
-}
-h2 {
-    font-family: "Josefin Sans";
-    font-size: 40px;
-}
+        body {
+            background-color: rgb(20, 33, 61);
+        }
+
+        h1 {
+            font-family: "Josefin Sans";
+            font-size: 100px;
+            background-color: rgb(114, 114, 114);
+        }
+
+        h2 {
+            font-family: "Josefin Sans";
+            font-size: 40px;
+        }
+
+        h2 {
+            font-family: "Josefin Sans";
+            font-size: 40px;
+        }
 
 
-nav {
-    background-color: rgb(19, 19, 19);
-    width: 100%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: end;
-    margin-bottom: none;
-}
+        nav {
+            background-color: rgb(19, 19, 19);
+            width: 100%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: end;
+            margin-bottom: none;
+        }
 
-nav a {
-    font-size:x-large;
-    font-style: none;
-    color: white;
-    font-family: "Josefin Sans";
-}
+        nav a {
+            font-size: x-large;
+            font-style: none;
+            color: white;
+            font-family: "Josefin Sans";
+        }
 
-#header-box {
-    width: 100%;
-    align-content: center;
-    align-self: center;
-    text-align: center;
-    display: flexbox;
-    background-color: rgb(114, 114, 114);
-    margin: auto;
-    margin-top: 4px;
-    border-bottom: 5px solid rgb(252, 163, 17);
-    
+        #header-box {
+            width: 100%;
+            align-content: center;
+            align-self: center;
+            text-align: center;
+            display: flexbox;
+            background-color: rgb(114, 114, 114);
+            margin: auto;
+            margin-top: 4px;
+            border-bottom: 5px solid rgb(252, 163, 17);
 
-}
-#header-suplex {
-    margin-right: 200px;
-    margin-bottom: 0px;
-}
-#header-designs {
-    margin-left: 200px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
-section#about {
-    display: inline-flex;
-    text-align: start;
-    width: 80%;
-    margin: auto;
-    background-color: rgb(19, 19, 19);
-    color: rgb(255, 255, 255);
-    margin-left: 5%;
-}
-#aboutHeader {
-    width: 100%;
-    border-bottom: 3px solid rgb(252, 163, 17);
-    display:inline-block;
-    margin-left: 5%;
-}
-#about p {
-    font-size: 18px;
-    width: 60%;
-}
-#aboutMePhoto {
-    justify-self: right;
-    width: 40%;
-    height:90%;
-    max-width: 500px;
-    max-height: auto;
-    min-width:250px;
-    min-height: auto;
-}
+        }
 
-section#skills {
-    display: flexbox;
-    text-align: end;
-    margin-right: 5%;
-}
-.skill-logo {
-    width: 150px;
-    height: auto;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    margin-top: 50px;
-    margin-left: 50px;
-}
+        #header-suplex {
+            margin-right: 200px;
+            margin-bottom: 0px;
+        }
 
-#skillsHeader {
-    justify-self: end;
-    text-align: end;
-    border-bottom: 3px solid rgb(252, 163, 17);
-    margin-right: 5%;
-}
+        #header-designs {
+            margin-left: 200px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
 
-#portfolioHeader {
-    width: 100%;
-    border-bottom: 3px solid rgb(252, 163, 17);
-    display:inline-block;
-    margin-left: 5%;
-}
+        section#about {
+            display: inline-flex;
+            text-align: start;
+            width: 80%;
+            margin: auto;
+            background-color: rgb(19, 19, 19);
+            color: rgb(255, 255, 255);
+            margin-left: 5%;
+        }
 
-section#portfolio {
-    display: flexbox;
-    text-align: start;
-    flex-flow: column;
-    width: 80%;
-    margin: auto;
-    background-color: rgb(19, 19, 19);
-    color: rgb(255, 255, 255);
-    margin-left: 5%;
-}
+        #aboutHeader {
+            width: 100%;
+            border-bottom: 3px solid rgb(252, 163, 17);
+            display: inline-block;
+            margin-left: 5%;
+        }
 
-.portfolioProject {
-    flex-flow: column;
-    font-family: "Josefin Sans";
-    font-size: 20px;
-    display: block;
-}
-footer {
-    background-color: rgb(19, 19, 19);
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    margin: none;
-    text-align: center;
-    border-top: 3px solid rgb(252, 163, 17);
-    border-bottom: 3px solid rgb(252, 163, 17);
-    padding: none;
-    box-sizing: border-box;
-}
+        #about p {
+            font-size: 18px;
+            width: 60%;
+        }
+
+        #aboutMePhoto {
+            justify-self: right;
+            width: 40%;
+            height: 90%;
+            max-width: 500px;
+            max-height: auto;
+            min-width: 250px;
+            min-height: auto;
+        }
+
+        section#skills {
+            display: flexbox;
+            text-align: end;
+            margin-right: 5%;
+        }
+
+        .skill-logo {
+            width: 150px;
+            height: auto;
+            align-items: center;
+            align-self: center;
+            align-content: center;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        #skillsHeader {
+            justify-self: end;
+            text-align: end;
+            border-bottom: 3px solid rgb(252, 163, 17);
+            margin-right: 5%;
+        }
+
+        #portfolioHeader {
+            width: 100%;
+            border-bottom: 3px solid rgb(252, 163, 17);
+            display: inline-block;
+            margin-left: 5%;
+        }
+
+        section#portfolio {
+            display: flexbox;
+            text-align: start;
+            flex-flow: column;
+            width: 80%;
+            margin: auto;
+            background-color: rgb(19, 19, 19);
+            color: rgb(255, 255, 255);
+            margin-left: 5%;
+        }
+
+        .portfolioProject {
+            flex-flow: column;
+            font-family: "Josefin Sans";
+            font-size: 20px;
+            display: block;
+        }
+
+        footer {
+            background-color: rgb(19, 19, 19);
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            margin: none;
+            text-align: center;
+            border-top: 3px solid rgb(252, 163, 17);
+            border-bottom: 3px solid rgb(252, 163, 17);
+            padding: none;
+            box-sizing: border-box;
+        }
+    }
+
+    /* Tablet Size */
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        
+    }
+
+    /* phone size */
+    @media screen and (max-width: 480px) {
+        
+    }
