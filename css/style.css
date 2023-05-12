@@ -157,10 +157,42 @@
 
     /* Tablet Size */
     @media screen and (min-width: 481px) and (max-width: 768px) {
-        
+        .skill-logo {
+            width: 80px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        #header-suplex {
+            margin-right: 100px;
+        }
+        #header-designs {
+            margin-left: 100px;
+        }
+        nav a {
+            font-size: small;
+        }
     }
 
     /* phone size */
     @media screen and (max-width: 480px) {
-        
+        .skill-logo {
+            width: 60px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        #header-suplex {
+            margin-right: 75px;
+        }
+        #header-designs {
+            margin-left: 75px;
+        }
+        nav a {
+            font-size: small;
+        }
+        #aboutMePhoto {
+            width: 25%;
+            min-width: 150px;
+        }
     }
