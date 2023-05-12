@@ -1,14 +1,9 @@
 body {
     background-color: rgb(20, 33, 61);
 }
-@font-face {
-    font-family: "Blanka";
-    src: url(./resources/BLANKA_Font/Blanka-Regular.otf);
-}
 
 h1 {
     font-family: "Josefin Sans";
-    font-family: Bebas Neue;
     font-size: 100px;
     background-color: rgb(114, 114, 114);
 }
@@ -88,7 +83,8 @@ section#about {
 
 section#skills {
     display: flexbox;
-    text-align: center;
+    text-align: end;
+    margin-right: 5%;
 }
 .skill-logo {
     width: 150px;
@@ -98,4 +94,10 @@ section#skills {
     align-content: center;
     margin-top: 50px;
     margin-left: 20px;
+}
+
+#skillsHeader {
+    justify-self: end;
+    text-align: end;
+    border-bottom: 3px solid rgb(252, 163, 17);
 }
