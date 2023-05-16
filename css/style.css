@@ -2,7 +2,7 @@
     @media screen {
 
         body {
-            background-color: rgb(20, 33, 61);
+            background-color: rgb(27, 43, 78);
         }
 
         h1 {
@@ -62,7 +62,7 @@
             margin-bottom: 0px;
         }
 
-        section#about {
+        .about {
             display: inline-flex;
             text-align: start;
             width: 80%;
@@ -92,9 +92,12 @@
             max-height: auto;
             min-width: 250px;
             min-height: auto;
+            margin-right: none;
+            margin-left: 5px;
+            
         }
 
-        section#skills {
+        #skills {
             display: flexbox;
             text-align: end;
             margin-right: 5%;
@@ -124,7 +127,7 @@
             margin-left: 5%;
         }
 
-        section#portfolio {
+        .portfolio {
             display: flexbox;
             text-align: start;
             flex-flow: column;
@@ -155,6 +158,31 @@
         }
     }
 
+    .contactLink {
+        height: 100px;
+        width: auto;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    #contactHeader {
+        font-family: "Josefin Sans";
+        width: 100%;
+            border-bottom: 3px solid rgb(252, 163, 17);
+            display: inline-block;
+            margin-left: 5%;
+    }
+
+    #lightSwitch img {
+        height: 40px;
+        width: auto;
+        filter: invert(100%);
+    }
+    
+    .lightMode {
+        background-color: white;
+        color:black;
+    }
+
     /* Tablet Size */
     @media screen and (min-width: 481px) and (max-width: 768px) {
         .skill-logo {
@@ -171,6 +199,10 @@
         }
         nav a {
             font-size: small;
+        }
+        .contactLink {
+            height: 80px;
+            width: auto;
         }
     }
 
@@ -194,5 +226,10 @@
         #aboutMePhoto {
             width: 25%;
             min-width: 150px;
+        }
+        .contactLink {
+            height: 75px;
+            width: auto;
+            margin-left: 20px;
         }
     }
